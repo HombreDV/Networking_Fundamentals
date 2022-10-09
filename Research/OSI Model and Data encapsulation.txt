@@ -1,0 +1,52 @@
+What is the OSI model? Why is it important for understanding networking?
+-design a standarized netwoek communications model to create consistency within the industry.
+-make networks modular. no more proprietary networks
+- Sender to Receiver
+Sender: 
+1)	Application
+2)	presentation
+	session
+	transport
+	network
+	data link
+7)	physical
+
+Receiver:
+	Application
+	presentation
+	session
+	transport
+	network
+	data link
+	Physical
+
+
+What are the advantages of using a theoretical model to describe networking?
+
+What is the name of Layer 3 in the OSI model? Layer 5?
+- session = layer 5
+- network = Layer 3
+Which OSI model layers typically correspond to the network architecture?
+
+How does the session ID differ from the port number?
+
+Which OSI model layer would you find a frame at?
+- Data link Layer.
+
+What is the difference between connectionless and connection-oriented services?
+- TCP is a connection based protocol because it takes advantage of sequencing, error correction, and flow control
+	- UDP is connection less is concerned with moving data than if all will be getting there
+
+
+
+
+
+Application Layer - Http , FTP, TFTP, SMTP
+Presentation Layer - Syntax, Encryption, compression ssl
+Session Layer - creating sessions between clients
+Transport Layor - delivering data on the network, segements data, TCP/UDP
+	- TCP is a connection based protocol because it takes advantage of sequencing, error correction, and flow control
+	- UDP is connection less is concerned with moving data than if all will be getting there
+Network layer - routing protocols specify how each router takes the data,IP Address
+Data link layer - interface between physical transmittion media
+Phyiscal Layer - coordinate rules for sending and receiving electrical signals
